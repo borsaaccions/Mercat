@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Càlcu</title>
+    <title>No title</title>
     <style>
         .expandable {
             cursor: pointer;
@@ -36,9 +36,8 @@
     </style>
 </head>
 <body>
-    <h1>S.t.o.c.k.s</h1>
     <form id="form">
-        <label for="cambio">Canvi USD/EUR:</label>        
+        <label for="cambio">USD/EUR:</label>        
         <input type="number" step="0.0001" id="cambio" required>
         <hr style="border: none; height: 2px; margin: 5px 0;">
         <div id="empresas"></div>
@@ -63,16 +62,16 @@
                     const input = document.createElement('input');
                     input.type = 'number';
                     input.step = '0.01';
-                    input.placeholder = `Precio actual de ${empresa}`;
+                    input.placeholder = `Preu ${empresa}`;
                     input.id = `precio-${index}`;
                     input.required = true;
 
-                    // Cargar valores guardados en localStorage
+/*                     // Cargar valores guardados en localStorage
                     const valorGuardado = localStorage.getItem(`precio-${index}`);
                     if (valorGuardado) {
                         input.value = valorGuardado;
                     }
-
+ */
                     empresasDiv.appendChild(document.createTextNode(empresa + ": "));
                     empresasDiv.appendChild(input);
                     empresasDiv.appendChild(document.createElement('br'));
@@ -82,14 +81,14 @@
                 document.getElementById('form').addEventListener('submit', (e) => {
                     e.preventDefault();
                     const cambio = parseFloat(document.getElementById('cambio').value);
-                    localStorage.setItem('cambio', cambio); // Guardar tipo de cambio en localStorage
+                    //localStorage.setItem('cambio', cambio); // Guardar tipo de cambio en localStorage
 
                     let resultados = '<table>';
-                    resultados += '<tr><th>Empresa</th><th>Total Invertit (EUR)</th><th>Total Venda (EUR)</th><th>Benefici Brut (EUR)</th><th>Benefici Net (EUR)</th><th>Percentatge Benefici</th></tr>';
+                    resultados += '<tr><th>Empresa</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th></tr>';
 
                     empresasUnicas.forEach((empresa, index) => {
                         const precioActual = parseFloat(document.getElementById(`precio-${index}`).value);
-                        localStorage.setItem(`precio-${index}`, precioActual); // Guardar precio en localStorage
+                        //localStorage.setItem(`precio-${index}`, precioActual); // Guardar precio en localStorage
 
                         const compras = jsonData.filter(item => item.empresa === empresa);
                         let valorActualEmpresa = 0;
@@ -126,7 +125,7 @@
                 window.mostrarDetalles = (empresa) => {
                     const compras = jsonData.filter(item => item.empresa === empresa);
                     let detalles = `<h3>Detalles de ${empresa}</h3><table>`;
-                    detalles += '<tr><th>Import Total</th><th>Accions</th><th>Data</th><th>Preu Unitat</th></tr>';
+                    detalles += '<tr><th>Import Total</th><th>Accions</th><th>Data</th><th>Preu Uni.</th></tr>';
 
                     compras.forEach(({ importeTotal, numeroAcciones, fecha, precioUnidad }) => {
                         detalles += `<tr>
@@ -141,12 +140,12 @@
                     detallesDiv.innerHTML = detalles; // Mostrar detalles en un div
                 };
 
-                // Cargar tipo de cambio desde localStorage
+/*                 // Cargar tipo de cambio desde localStorage
                 const cambioGuardado = localStorage.getItem('cambio');
                 if (cambioGuardado) {
                     document.getElementById('cambio').value = cambioGuardado;
                 }
-            })
+ */            })
             .catch(error => console.error('Error al leer el JSON:', error));
     </script>
     <hr style="border: none; height: 20px; margin: 5px 0;">
