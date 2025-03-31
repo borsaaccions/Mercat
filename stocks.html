@@ -84,7 +84,7 @@
                     //localStorage.setItem('cambio', cambio); // Guardar tipo de cambio en localStorage
 
                     let resultados = '<table>';
-                    resultados += '<tr><th>Empresa</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th></tr>';
+                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th></tr>';
 
                     empresasUnicas.forEach((empresa, index) => {
                         const precioActual = parseFloat(document.getElementById(`precio-${index}`).value);
