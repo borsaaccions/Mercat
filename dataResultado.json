@@ -1,639 +1,1150 @@
 [
     {
-        "fecha": "26/03/2025",
-        "importeTotal": "122,78",
-        "precioUnidad": 65.1595,
-        "empresa": "N ik e",
-        "numeroAcciones": 2
+        "fecha": "28/03/2025",
+        "importeTotal": "250,22",
+        "precioUnidad": 268.895,
+        "empresa": "TESLA INC",
+        "numeroAcciones": 1
     },
     {
         "fecha": "26/03/2025",
-        "importeTotal": "123,25",
-        "precioUnidad": 65.4095,
-        "empresa": "N ik e",
+        "importeTotal": "254,63",
+        "precioUnidad": 271.875,
+        "empresa": "TESLA INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "12/12/2024",
+        "importeTotal": "804,95",
+        "precioUnidad": 419.4745,
+        "empresa": "TESLA INC",
         "numeroAcciones": 2
-    },
-    {
-        "fecha": "19/08/2024",
-        "importeTotal": "1897,09",
-        "precioUnidad": 83.71,
-        "empresa": "N ik e",
-        "numeroAcciones": 25
-    },
-    {
-        "fecha": "14/08/2024",
-        "importeTotal": "1060,96",
-        "precioUnidad": 77.569,
-        "empresa": "N ik e",
-        "numeroAcciones": 15
-    },
-    {
-        "fecha": "13/08/2024",
-        "importeTotal": "1786,37",
-        "precioUnidad": 78.27,
-        "empresa": "N ik e",
-        "numeroAcciones": 25
-    },
-    {
-        "fecha": "16/07/2024",
-        "importeTotal": "1989,63",
-        "precioUnidad": 72.1095,
-        "empresa": "N ik e",
-        "numeroAcciones": 30
-    },
-    {
-        "fecha": "16/02/2024",
-        "importeTotal": "4756,38",
-        "precioUnidad": 102.2385,
-        "empresa": "N ik e",
-        "numeroAcciones": 50
-    },
-    {
-        "fecha": "19/09/2023",
-        "importeTotal": "3119,68",
-        "precioUnidad": 94.85,
-        "empresa": "N ik e",
-        "numeroAcciones": 35
-    },
-    {
-        "fecha": "18/09/2023",
-        "importeTotal": "2982,39",
-        "precioUnidad": 96.16,
-        "empresa": "N ik e",
-        "numeroAcciones": 33
-    },
-    {
-        "fecha": "13/09/2023",
-        "importeTotal": "2517,81",
-        "precioUnidad": 96.17,
-        "empresa": "N ik e",
-        "numeroAcciones": 28
-    },
-    {
-        "fecha": "22/08/2023",
-        "importeTotal": "2067,97",
-        "precioUnidad": 101.2595,
-        "empresa": "N ik e",
-        "numeroAcciones": 22
-    },
-    {
-        "fecha": "05/07/2023",
-        "importeTotal": "2461,31",
-        "precioUnidad": 106.6275,
-        "empresa": "N ik e",
-        "numeroAcciones": 25
-    },
-    {
-        "fecha": "09/06/2023",
-        "importeTotal": "2470,80",
-        "precioUnidad": 106.0975,
-        "empresa": "N ik e",
-        "numeroAcciones": 25
-    },
-    {
-        "fecha": "05/06/2023",
-        "importeTotal": "2975,27",
-        "precioUnidad": 105.9975,
-        "empresa": "N ik e",
-        "numeroAcciones": 30
-    },
-    {
-        "fecha": "31/05/2023",
-        "importeTotal": "1974,53",
-        "precioUnidad": 105.0888,
-        "empresa": "N ik e",
-        "numeroAcciones": 20
-    },
-    {
-        "fecha": "30/05/2023",
-        "importeTotal": "2030,40",
-        "precioUnidad": 108.105,
-        "empresa": "N ik e",
-        "numeroAcciones": 20
-    },
-    {
-        "fecha": "25/05/2023",
-        "importeTotal": "2529,14",
-        "precioUnidad": 108.1863,
-        "empresa": "N ik e",
-        "numeroAcciones": 25
-    },
-    {
-        "fecha": "23/05/2023",
-        "importeTotal": "2232,07",
-        "precioUnidad": 109,
-        "empresa": "N ik e",
-        "numeroAcciones": 22
-    },
-    {
-        "fecha": "06/09/2022",
-        "importeTotal": "3018,57",
-        "precioUnidad": 105.44,
-        "empresa": "N ik e",
-        "numeroAcciones": 28
-    },
-    {
-        "fecha": "12/07/2022",
-        "importeTotal": "3052,64",
-        "precioUnidad": 104.474,
-        "empresa": "N ik e",
-        "numeroAcciones": 29
-    },
-    {
-        "fecha": "09/06/2022",
-        "importeTotal": "2541,77",
-        "precioUnidad": 121.244,
-        "empresa": "N ik e",
-        "numeroAcciones": 22
-    },
-    {
-        "fecha": "04/02/2022",
-        "importeTotal": "2933,88",
-        "precioUnidad": 144.27,
-        "empresa": "N ik e",
-        "numeroAcciones": 23
-    },
-    {
-        "fecha": "27/03/2025",
-        "importeTotal": "111,34",
-        "precioUnidad": 11.8092,
-        "empresa": "Stella",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "26/03/2025",
-        "importeTotal": "114,27",
-        "precioUnidad": 12.1193,
-        "empresa": "Stella",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "26/03/2025",
-        "importeTotal": "115,20",
-        "precioUnidad": 12.2192,
-        "empresa": "Stella",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "23/09/2024",
-        "importeTotal": "2772,72",
-        "precioUnidad": 15.3695,
-        "empresa": "Stella",
-        "numeroAcciones": 200
-    },
-    {
-        "fecha": "23/08/2024",
-        "importeTotal": "1804,27",
-        "precioUnidad": 16.7395,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "22/08/2024",
-        "importeTotal": "1923,98",
-        "precioUnidad": 16.3995,
-        "empresa": "Stella",
-        "numeroAcciones": 130
-    },
-    {
-        "fecha": "21/08/2024",
-        "importeTotal": "1937,86",
-        "precioUnidad": 16.5493,
-        "empresa": "Stella",
-        "numeroAcciones": 130
-    },
-    {
-        "fecha": "20/08/2024",
-        "importeTotal": "1928,40",
-        "precioUnidad": 16.4195,
-        "empresa": "Stella",
-        "numeroAcciones": 130
-    },
-    {
-        "fecha": "19/08/2024",
-        "importeTotal": "1769,89",
-        "precioUnidad": 16.2695,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "16/08/2024",
-        "importeTotal": "1728,37",
-        "precioUnidad": 15.8395,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "14/08/2024",
-        "importeTotal": "1703,89",
-        "precioUnidad": 15.5795,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "13/08/2024",
-        "importeTotal": "1659,74",
-        "precioUnidad": 15.1495,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "11/07/2024",
-        "importeTotal": "1027,14",
-        "precioUnidad": 20.2195,
-        "empresa": "Stella",
-        "numeroAcciones": 55
-    },
-    {
-        "fecha": "21/06/2024",
-        "importeTotal": "2301,10",
-        "precioUnidad": 20.475,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "18/06/2024",
-        "importeTotal": "2867,45",
-        "precioUnidad": 20.4395,
-        "empresa": "Stella",
-        "numeroAcciones": 150
-    },
-    {
-        "fecha": "07/06/2024",
-        "importeTotal": "2447,90",
-        "precioUnidad": 21.8695,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "05/04/2024",
-        "importeTotal": "2971,80",
-        "precioUnidad": 26.7295,
-        "empresa": "Stella",
-        "numeroAcciones": 120
-    },
-    {
-        "fecha": "26/03/2025",
-        "importeTotal": "229,85",
-        "precioUnidad": 122.6344,
-        "empresa": "Pd d",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "19/11/2024",
-        "importeTotal": "1110,85",
-        "precioUnidad": 116.7375,
-        "empresa": "Pd d",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "18/11/2024",
-        "importeTotal": "998,15",
-        "precioUnidad": 116.2565,
-        "empresa": "Pd d",
-        "numeroAcciones": 9
-    },
-    {
-        "fecha": "14/11/2024",
-        "importeTotal": "1169,05",
-        "precioUnidad": 111.7565,
-        "empresa": "Pd d",
-        "numeroAcciones": 11
-    },
-    {
-        "fecha": "13/11/2024",
-        "importeTotal": "2147,85",
-        "precioUnidad": 112.7989,
-        "empresa": "Pd d",
-        "numeroAcciones": 20
-    },
-    {
-        "fecha": "12/11/2024",
-        "importeTotal": "1600,01",
-        "precioUnidad": 112.6999,
-        "empresa": "Pd d",
-        "numeroAcciones": 15
-    },
-    {
-        "fecha": "29/10/2024",
-        "importeTotal": "1052,00",
-        "precioUnidad": 126.128,
-        "empresa": "Pd d",
-        "numeroAcciones": 9
-    },
-    {
-        "fecha": "24/10/2024",
-        "importeTotal": "1807,46",
-        "precioUnidad": 121.849,
-        "empresa": "Pd d",
-        "numeroAcciones": 16
-    },
-    {
-        "fecha": "23/08/2024",
-        "importeTotal": "1505,23",
-        "precioUnidad": 139.63,
-        "empresa": "Pd d",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "14/08/2024",
-        "importeTotal": "1551,15",
-        "precioUnidad": 141.8185,
-        "empresa": "Pd d",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "13/08/2024",
-        "importeTotal": "1582,39",
-        "precioUnidad": 144.4285,
-        "empresa": "Pd d",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "12/07/2024",
-        "importeTotal": "3981,29",
-        "precioUnidad": 143.985,
-        "empresa": "Pd d",
-        "numeroAcciones": 30
-    },
-    {
-        "fecha": "11/07/2024",
-        "importeTotal": "3383,39",
-        "precioUnidad": 141.0235,
-        "empresa": "Pd d",
-        "numeroAcciones": 26
-    },
-    {
-        "fecha": "21/06/2024",
-        "importeTotal": "1870,12",
-        "precioUnidad": 142.61,
-        "empresa": "Pd d",
-        "numeroAcciones": 14
-    },
-    {
-        "fecha": "11/06/2024",
-        "importeTotal": "1652,64",
-        "precioUnidad": 147.467,
-        "empresa": "Pd d",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "27/03/2025",
-        "importeTotal": "170,66",
-        "precioUnidad": 90.8985,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "27/03/2025",
-        "importeTotal": "170,96",
-        "precioUnidad": 91.058,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "26/03/2025",
-        "importeTotal": "171,62",
-        "precioUnidad": 91.3785,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "26/11/2024",
-        "importeTotal": "1633,15",
-        "precioUnidad": 100.5285,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 17
-    },
-    {
-        "fecha": "19/11/2024",
-        "importeTotal": "923,37",
-        "precioUnidad": 97.01,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "18/11/2024",
-        "importeTotal": "1028,51",
-        "precioUnidad": 98.0167,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 11
-    },
-    {
-        "fecha": "15/11/2024",
-        "importeTotal": "1480,97",
-        "precioUnidad": 97.4285,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 16
-    },
-    {
-        "fecha": "14/11/2024",
-        "importeTotal": "1142,21",
-        "precioUnidad": 100.089,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "13/11/2024",
-        "importeTotal": "1531,62",
-        "precioUnidad": 100.519,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 16
-    },
-    {
-        "fecha": "12/11/2024",
-        "importeTotal": "1560,58",
-        "precioUnidad": 103.0499,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 16
-    },
-    {
-        "fecha": "24/10/2024",
-        "importeTotal": "1965,14",
-        "precioUnidad": 105.989,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 20
-    },
-    {
-        "fecha": "14/08/2024",
-        "importeTotal": "1355,17",
-        "precioUnidad": 99.1075,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 15
-    },
-    {
-        "fecha": "13/08/2024",
-        "importeTotal": "1585,69",
-        "precioUnidad": 96.4871,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 18
-    },
-    {
-        "fecha": "11/07/2024",
-        "importeTotal": "1228,14",
-        "precioUnidad": 132.9975,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "05/07/2024",
-        "importeTotal": "1954,63",
-        "precioUnidad": 131.729,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 16
-    },
-    {
-        "fecha": "03/07/2024",
-        "importeTotal": "1887,37",
-        "precioUnidad": 135.2589,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 15
-    },
-    {
-        "fecha": "02/07/2024",
-        "importeTotal": "4701,33",
-        "precioUnidad": 132.7085,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 38
-    },
-    {
-        "fecha": "27/06/2024",
-        "importeTotal": "1523,38",
-        "precioUnidad": 135.1599,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "21/06/2024",
-        "importeTotal": "1564,13",
-        "precioUnidad": 139.1353,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 12
-    },
-    {
-        "fecha": "20/06/2024",
-        "importeTotal": "1454,48",
-        "precioUnidad": 154.8549,
-        "empresa": "MIc Ron",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "19/11/2024",
-        "importeTotal": "1136,75",
-        "precioUnidad": 398.2145,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "18/11/2024",
-        "importeTotal": "1145,00",
-        "precioUnidad": 400.1562,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "15/11/2024",
-        "importeTotal": "1152,11",
-        "precioUnidad": 404.119,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "14/11/2024",
-        "importeTotal": "1168,87",
-        "precioUnidad": 409.7091,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "13/11/2024",
-        "importeTotal": "1571,31",
-        "precioUnidad": 412.505,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 4
-    },
-    {
-        "fecha": "12/11/2024",
-        "importeTotal": "1566,01",
-        "precioUnidad": 413.634,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 4
-    },
-    {
-        "fecha": "04/11/2024",
-        "importeTotal": "1541,44",
-        "precioUnidad": 417.985,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 4
-    },
-    {
-        "fecha": "29/10/2024",
-        "importeTotal": "1917,66",
-        "precioUnidad": 414.0899,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 5
-    },
-    {
-        "fecha": "28/10/2024",
-        "importeTotal": "1175,67",
-        "precioUnidad": 421.9595,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "23/10/2024",
-        "importeTotal": "1542,11",
-        "precioUnidad": 413.7865,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 4
-    },
-    {
-        "fecha": "21/10/2024",
-        "importeTotal": "1967,68",
-        "precioUnidad": 424.74,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 5
-    },
-    {
-        "fecha": "21/10/2024",
-        "importeTotal": "2402,16",
-        "precioUnidad": 432.159,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 6
-    },
-    {
-        "fecha": "07/10/2024",
-        "importeTotal": "894,84",
-        "precioUnidad": 489.309,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "02/10/2024",
-        "importeTotal": "1826,43",
-        "precioUnidad": 502.1699,
-        "empresa": "Ele Heal TH",
-        "numeroAcciones": 4
     },
     {
         "fecha": "27/03/2025",
         "importeTotal": "242,17",
         "precioUnidad": 129.3,
-        "empresa": "ALpha MET",
+        "empresa": "ALPHA METALLURGICA",
         "numeroAcciones": 2
     },
     {
         "fecha": "26/03/2025",
         "importeTotal": "240,94",
         "precioUnidad": 128.5898,
-        "empresa": "ALpha MET",
+        "empresa": "ALPHA METALLURGICA",
         "numeroAcciones": 2
     },
     {
         "fecha": "21/11/2024",
         "importeTotal": "1656,77",
         "precioUnidad": 246.9475,
-        "empresa": "ALpha MET",
+        "empresa": "ALPHA METALLURGICA",
         "numeroAcciones": 7
+    },
+    {
+        "fecha": "19/11/2024",
+        "importeTotal": "1136,75",
+        "precioUnidad": 398.2145,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "18/11/2024",
+        "importeTotal": "1145,00",
+        "precioUnidad": 400.1562,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "15/11/2024",
+        "importeTotal": "1152,11",
+        "precioUnidad": 404.119,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "14/11/2024",
+        "importeTotal": "1168,87",
+        "precioUnidad": 409.7091,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "13/11/2024",
+        "importeTotal": "1571,31",
+        "precioUnidad": 412.505,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "12/11/2024",
+        "importeTotal": "1566,01",
+        "precioUnidad": 413.634,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "04/11/2024",
+        "importeTotal": "1541,44",
+        "precioUnidad": 417.985,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "29/10/2024",
+        "importeTotal": "1917,66",
+        "precioUnidad": 414.0899,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 5
+    },
+    {
+        "fecha": "28/10/2024",
+        "importeTotal": "1175,67",
+        "precioUnidad": 421.9595,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "23/10/2024",
+        "importeTotal": "1542,11",
+        "precioUnidad": 413.7865,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "21/10/2024",
+        "importeTotal": "1967,68",
+        "precioUnidad": 424.74,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 5
+    },
+    {
+        "fecha": "21/10/2024",
+        "importeTotal": "2402,16",
+        "precioUnidad": 432.159,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 6
+    },
+    {
+        "fecha": "07/10/2024",
+        "importeTotal": "894,84",
+        "precioUnidad": 489.309,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "02/10/2024",
+        "importeTotal": "1826,43",
+        "precioUnidad": 502.1699,
+        "empresa": "ELEVANCE HEALTH INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "28/03/2025",
+        "importeTotal": "169,52",
+        "precioUnidad": 90.847,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "27/03/2025",
+        "importeTotal": "170,66",
+        "precioUnidad": 90.8985,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "27/03/2025",
+        "importeTotal": "170,96",
+        "precioUnidad": 91.058,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "26/03/2025",
+        "importeTotal": "171,62",
+        "precioUnidad": 91.3785,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "26/11/2024",
+        "importeTotal": "1633,15",
+        "precioUnidad": 100.5285,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 17
+    },
+    {
+        "fecha": "19/11/2024",
+        "importeTotal": "923,37",
+        "precioUnidad": 97.01,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "18/11/2024",
+        "importeTotal": "1028,51",
+        "precioUnidad": 98.0167,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 11
+    },
+    {
+        "fecha": "15/11/2024",
+        "importeTotal": "1480,97",
+        "precioUnidad": 97.4285,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 16
+    },
+    {
+        "fecha": "14/11/2024",
+        "importeTotal": "1142,21",
+        "precioUnidad": 100.089,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "13/11/2024",
+        "importeTotal": "1531,62",
+        "precioUnidad": 100.519,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 16
+    },
+    {
+        "fecha": "12/11/2024",
+        "importeTotal": "1560,58",
+        "precioUnidad": 103.0499,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 16
+    },
+    {
+        "fecha": "24/10/2024",
+        "importeTotal": "1965,14",
+        "precioUnidad": 105.989,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "14/08/2024",
+        "importeTotal": "1355,17",
+        "precioUnidad": 99.1075,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "13/08/2024",
+        "importeTotal": "1585,69",
+        "precioUnidad": 96.4871,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 18
+    },
+    {
+        "fecha": "11/07/2024",
+        "importeTotal": "1228,14",
+        "precioUnidad": 132.9975,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "05/07/2024",
+        "importeTotal": "1954,63",
+        "precioUnidad": 131.729,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 16
+    },
+    {
+        "fecha": "03/07/2024",
+        "importeTotal": "1887,37",
+        "precioUnidad": 135.2589,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "02/07/2024",
+        "importeTotal": "4701,33",
+        "precioUnidad": 132.7085,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 38
+    },
+    {
+        "fecha": "27/06/2024",
+        "importeTotal": "1523,38",
+        "precioUnidad": 135.1599,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "21/06/2024",
+        "importeTotal": "1564,13",
+        "precioUnidad": 139.1353,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "20/06/2024",
+        "importeTotal": "1454,48",
+        "precioUnidad": 154.8549,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "28/03/2025",
+        "importeTotal": "223,97",
+        "precioUnidad": 120.2635,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "26/03/2025",
+        "importeTotal": "229,85",
+        "precioUnidad": 122.6344,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "19/11/2024",
+        "importeTotal": "1110,85",
+        "precioUnidad": 116.7375,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "18/11/2024",
+        "importeTotal": "998,15",
+        "precioUnidad": 116.2565,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 9
+    },
+    {
+        "fecha": "14/11/2024",
+        "importeTotal": "1169,05",
+        "precioUnidad": 111.7565,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 11
+    },
+    {
+        "fecha": "13/11/2024",
+        "importeTotal": "2147,85",
+        "precioUnidad": 112.7989,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "12/11/2024",
+        "importeTotal": "1600,01",
+        "precioUnidad": 112.6999,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "29/10/2024",
+        "importeTotal": "1052,00",
+        "precioUnidad": 126.128,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 9
+    },
+    {
+        "fecha": "24/10/2024",
+        "importeTotal": "1807,46",
+        "precioUnidad": 121.849,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 16
+    },
+    {
+        "fecha": "23/08/2024",
+        "importeTotal": "1505,23",
+        "precioUnidad": 139.63,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "14/08/2024",
+        "importeTotal": "1551,15",
+        "precioUnidad": 141.8185,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "13/08/2024",
+        "importeTotal": "1582,39",
+        "precioUnidad": 144.4285,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "12/07/2024",
+        "importeTotal": "3981,29",
+        "precioUnidad": 143.985,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 30
+    },
+    {
+        "fecha": "11/07/2024",
+        "importeTotal": "3383,39",
+        "precioUnidad": 141.0235,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 26
+    },
+    {
+        "fecha": "21/06/2024",
+        "importeTotal": "1870,12",
+        "precioUnidad": 142.61,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 14
+    },
+    {
+        "fecha": "11/06/2024",
+        "importeTotal": "1652,64",
+        "precioUnidad": 147.467,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "28/03/2025",
+        "importeTotal": "130,74",
+        "precioUnidad": 11.6495,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "27/03/2025",
+        "importeTotal": "111,34",
+        "precioUnidad": 11.8092,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "26/03/2025",
+        "importeTotal": "114,27",
+        "precioUnidad": 12.1193,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "26/03/2025",
+        "importeTotal": "115,20",
+        "precioUnidad": 12.2192,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "23/09/2024",
+        "importeTotal": "2772,72",
+        "precioUnidad": 15.3695,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "23/08/2024",
+        "importeTotal": "1804,27",
+        "precioUnidad": 16.7395,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "22/08/2024",
+        "importeTotal": "1923,98",
+        "precioUnidad": 16.3995,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 130
+    },
+    {
+        "fecha": "21/08/2024",
+        "importeTotal": "1937,86",
+        "precioUnidad": 16.5493,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 130
+    },
+    {
+        "fecha": "20/08/2024",
+        "importeTotal": "1928,40",
+        "precioUnidad": 16.4195,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 130
+    },
+    {
+        "fecha": "19/08/2024",
+        "importeTotal": "1769,89",
+        "precioUnidad": 16.2695,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "16/08/2024",
+        "importeTotal": "1728,37",
+        "precioUnidad": 15.8395,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "14/08/2024",
+        "importeTotal": "1703,89",
+        "precioUnidad": 15.5795,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "13/08/2024",
+        "importeTotal": "1659,74",
+        "precioUnidad": 15.1495,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "11/07/2024",
+        "importeTotal": "1027,14",
+        "precioUnidad": 20.2195,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 55
+    },
+    {
+        "fecha": "21/06/2024",
+        "importeTotal": "2301,10",
+        "precioUnidad": 20.475,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "18/06/2024",
+        "importeTotal": "2867,45",
+        "precioUnidad": 20.4395,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 150
+    },
+    {
+        "fecha": "07/06/2024",
+        "importeTotal": "2447,90",
+        "precioUnidad": 21.8695,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "05/04/2024",
+        "importeTotal": "2971,80",
+        "precioUnidad": 26.7295,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "28/03/2025",
+        "importeTotal": "122,15",
+        "precioUnidad": 65.2485,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "26/03/2025",
+        "importeTotal": "122,78",
+        "precioUnidad": 65.1595,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "26/03/2025",
+        "importeTotal": "123,25",
+        "precioUnidad": 65.4095,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "19/08/2024",
+        "importeTotal": "1897,09",
+        "precioUnidad": 83.71,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 25
+    },
+    {
+        "fecha": "14/08/2024",
+        "importeTotal": "1060,96",
+        "precioUnidad": 77.569,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "13/08/2024",
+        "importeTotal": "1786,37",
+        "precioUnidad": 78.27,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 25
+    },
+    {
+        "fecha": "16/07/2024",
+        "importeTotal": "1989,63",
+        "precioUnidad": 72.1095,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 30
+    },
+    {
+        "fecha": "16/02/2024",
+        "importeTotal": "4756,38",
+        "precioUnidad": 102.2385,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 50
+    },
+    {
+        "fecha": "19/09/2023",
+        "importeTotal": "3119,68",
+        "precioUnidad": 94.85,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 35
+    },
+    {
+        "fecha": "18/09/2023",
+        "importeTotal": "2982,39",
+        "precioUnidad": 96.16,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 33
+    },
+    {
+        "fecha": "13/09/2023",
+        "importeTotal": "2517,81",
+        "precioUnidad": 96.17,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 28
+    },
+    {
+        "fecha": "22/08/2023",
+        "importeTotal": "2067,97",
+        "precioUnidad": 101.2595,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 22
+    },
+    {
+        "fecha": "05/07/2023",
+        "importeTotal": "2461,31",
+        "precioUnidad": 106.6275,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 25
+    },
+    {
+        "fecha": "09/06/2023",
+        "importeTotal": "2470,80",
+        "precioUnidad": 106.0975,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 25
+    },
+    {
+        "fecha": "05/06/2023",
+        "importeTotal": "2975,27",
+        "precioUnidad": 105.9975,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 30
+    },
+    {
+        "fecha": "31/05/2023",
+        "importeTotal": "1974,53",
+        "precioUnidad": 105.0888,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "30/05/2023",
+        "importeTotal": "2030,40",
+        "precioUnidad": 108.105,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "25/05/2023",
+        "importeTotal": "2529,14",
+        "precioUnidad": 108.1863,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 25
+    },
+    {
+        "fecha": "23/05/2023",
+        "importeTotal": "2232,07",
+        "precioUnidad": 109,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 22
+    },
+    {
+        "fecha": "06/09/2022",
+        "importeTotal": "3018,57",
+        "precioUnidad": 105.44,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 28
+    },
+    {
+        "fecha": "12/07/2022",
+        "importeTotal": "3052,64",
+        "precioUnidad": 104.474,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 29
+    },
+    {
+        "fecha": "09/06/2022",
+        "importeTotal": "2541,77",
+        "precioUnidad": 121.244,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 22
+    },
+    {
+        "fecha": "04/02/2022",
+        "importeTotal": "2933,88",
+        "precioUnidad": 144.27,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 23
+    },
+    {
+        "fecha": "18/03/2025",
+        "importeTotal": "704,86",
+        "precioUnidad": 382.335,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "10/03/2025",
+        "importeTotal": "707,71",
+        "precioUnidad": 384.3345,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "07/03/2025",
+        "importeTotal": "724,56",
+        "precioUnidad": 389.814,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "06/03/2025",
+        "importeTotal": "1100,11",
+        "precioUnidad": 396.1399,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "30/01/2025",
+        "importeTotal": "1200,89",
+        "precioUnidad": 414.83,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "27/01/2025",
+        "importeTotal": "827,86",
+        "precioUnidad": 429.7925,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "02/01/2025",
+        "importeTotal": "1218,62",
+        "precioUnidad": 415.775,
+        "empresa": "Ma.MICROSOFT CORP",
+        "numeroAcciones": 3
+    },
+    {
+        "fecha": "10/03/2025",
+        "importeTotal": "603,68",
+        "precioUnidad": 131.0923,
+        "empresa": "Ma.ALPHA METALLURGICA",
+        "numeroAcciones": 5
+    },
+    {
+        "fecha": "06/03/2025",
+        "importeTotal": "848,98",
+        "precioUnidad": 130.9699,
+        "empresa": "Ma.ALPHA METALLURGICA",
+        "numeroAcciones": 7
+    },
+    {
+        "fecha": "21/11/2024",
+        "importeTotal": "1656,84",
+        "precioUnidad": 246.9585,
+        "empresa": "Ma.ALPHA METALLURGICA",
+        "numeroAcciones": 7
+    },
+    {
+        "fecha": "21/03/2025",
+        "importeTotal": "352,96",
+        "precioUnidad": 94.936,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "18/03/2025",
+        "importeTotal": "755,91",
+        "precioUnidad": 102.5199,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 8
+    },
+    {
+        "fecha": "10/03/2025",
+        "importeTotal": "816,13",
+        "precioUnidad": 88.6665,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "06/03/2025",
+        "importeTotal": "996,19",
+        "precioUnidad": 89.668,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "26/11/2024",
+        "importeTotal": "1056,83",
+        "precioUnidad": 100.4885,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 11
+    },
+    {
+        "fecha": "20/11/2024",
+        "importeTotal": "1575,66",
+        "precioUnidad": 97.329,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 17
+    },
+    {
+        "fecha": "19/11/2024",
+        "importeTotal": "1108,20",
+        "precioUnidad": 97.049,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "18/11/2024",
+        "importeTotal": "1209,95",
+        "precioUnidad": 97.5885,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 13
+    },
+    {
+        "fecha": "15/11/2024",
+        "importeTotal": "1385,94",
+        "precioUnidad": 97.2495,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "14/11/2024",
+        "importeTotal": "1615,13",
+        "precioUnidad": 99.9395,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 17
+    },
+    {
+        "fecha": "13/11/2024",
+        "importeTotal": "1913,21",
+        "precioUnidad": 100.4685,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "12/11/2024",
+        "importeTotal": "2245,10",
+        "precioUnidad": 103.1599,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 23
+    },
+    {
+        "fecha": "11/11/2024",
+        "importeTotal": "2034,94",
+        "precioUnidad": 107.7492,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "24/10/2024",
+        "importeTotal": "1081,05",
+        "precioUnidad": 105.949,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 11
+    },
+    {
+        "fecha": "21/10/2024",
+        "importeTotal": "2006,28",
+        "precioUnidad": 108.269,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "28/08/2024",
+        "importeTotal": "1692,65",
+        "precioUnidad": 93.799,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 20
+    },
+    {
+        "fecha": "26/08/2024",
+        "importeTotal": "1940,89",
+        "precioUnidad": 98.1585,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 22
+    },
+    {
+        "fecha": "14/08/2024",
+        "importeTotal": "1638,61",
+        "precioUnidad": 99.881,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 18
+    },
+    {
+        "fecha": "13/08/2024",
+        "importeTotal": "1589,83",
+        "precioUnidad": 96.7395,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 18
+    },
+    {
+        "fecha": "11/07/2024",
+        "importeTotal": "1468,29",
+        "precioUnidad": 132.528,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "05/07/2024",
+        "importeTotal": "2206,76",
+        "precioUnidad": 132.207,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 18
+    },
+    {
+        "fecha": "03/07/2024",
+        "importeTotal": "1511,97",
+        "precioUnidad": 135.419,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 12
+    },
+    {
+        "fecha": "02/07/2024",
+        "importeTotal": "3082,96",
+        "precioUnidad": 132.258,
+        "empresa": "Ma.MICRON TECHNOLOGY INC",
+        "numeroAcciones": 25
+    },
+    {
+        "fecha": "13/03/2025",
+        "importeTotal": "552,02",
+        "precioUnidad": 11.8891,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 50
+    },
+    {
+        "fecha": "10/03/2025",
+        "importeTotal": "597,29",
+        "precioUnidad": 12.9699,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 50
+    },
+    {
+        "fecha": "06/03/2025",
+        "importeTotal": "936,94",
+        "precioUnidad": 12.6492,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 80
+    },
+    {
+        "fecha": "19/11/2024",
+        "importeTotal": "1235,89",
+        "precioUnidad": 12.9895,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 100
+    },
+    {
+        "fecha": "18/11/2024",
+        "importeTotal": "1023,33",
+        "precioUnidad": 13.4092,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 80
+    },
+    {
+        "fecha": "15/11/2024",
+        "importeTotal": "1529,77",
+        "precioUnidad": 13.4189,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "14/11/2024",
+        "importeTotal": "2315,46",
+        "precioUnidad": 13.535,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 180
+    },
+    {
+        "fecha": "13/11/2024",
+        "importeTotal": "2505,51",
+        "precioUnidad": 13.1595,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "12/11/2024",
+        "importeTotal": "2263,48",
+        "precioUnidad": 13.2895,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 180
+    },
+    {
+        "fecha": "11/11/2024",
+        "importeTotal": "2575,67",
+        "precioUnidad": 13.64,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "08/11/2024",
+        "importeTotal": "2268,10",
+        "precioUnidad": 13.4095,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 180
+    },
+    {
+        "fecha": "04/11/2024",
+        "importeTotal": "1513,44",
+        "precioUnidad": 13.6795,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "24/10/2024",
+        "importeTotal": "1508,76",
+        "precioUnidad": 13.5595,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "21/10/2024",
+        "importeTotal": "2157,87",
+        "precioUnidad": 12.9395,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 180
+    },
+    {
+        "fecha": "25/09/2024",
+        "importeTotal": "719,90",
+        "precioUnidad": 15.3695,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 52
+    },
+    {
+        "fecha": "03/09/2024",
+        "importeTotal": "1444,36",
+        "precioUnidad": 15.8995,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 100
+    },
+    {
+        "fecha": "30/08/2024",
+        "importeTotal": "1513,58",
+        "precioUnidad": 16.6795,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 100
+    },
+    {
+        "fecha": "28/08/2024",
+        "importeTotal": "1803,68",
+        "precioUnidad": 16.6595,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "27/08/2024",
+        "importeTotal": "1811,88",
+        "precioUnidad": 16.759,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "26/08/2024",
+        "importeTotal": "1805,50",
+        "precioUnidad": 16.7395,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "16/08/2024",
+        "importeTotal": "864,86",
+        "precioUnidad": 15.8395,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 60
+    },
+    {
+        "fecha": "14/08/2024",
+        "importeTotal": "1703,89",
+        "precioUnidad": 15.5795,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "13/08/2024",
+        "importeTotal": "1663,03",
+        "precioUnidad": 15.1795,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "11/07/2024",
+        "importeTotal": "1306,24",
+        "precioUnidad": 20.2095,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 70
+    },
+    {
+        "fecha": "05/07/2024",
+        "importeTotal": "2174,34",
+        "precioUnidad": 19.5395,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "02/07/2024",
+        "importeTotal": "3650,96",
+        "precioUnidad": 19.5795,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "24/06/2024",
+        "importeTotal": "3907,77",
+        "precioUnidad": 20.825,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "21/06/2024",
+        "importeTotal": "3841,52",
+        "precioUnidad": 20.445,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "03/06/2024",
+        "importeTotal": "4070,18",
+        "precioUnidad": 22.0052,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 200
+    },
+    {
+        "fecha": "01/05/2024",
+        "importeTotal": "7465,08",
+        "precioUnidad": 22.2174,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 358
+    },
+    {
+        "fecha": "23/04/2024",
+        "importeTotal": "2066,86",
+        "precioUnidad": 24.9495,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 88
+    },
+    {
+        "fecha": "05/04/2024",
+        "importeTotal": "2980,99",
+        "precioUnidad": 26.7195,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 120
+    },
+    {
+        "fecha": "04/04/2024",
+        "importeTotal": "3798,36",
+        "precioUnidad": 27.2395,
+        "empresa": "Ma.STELLANTIS NV",
+        "numeroAcciones": 150
     }
 ]
