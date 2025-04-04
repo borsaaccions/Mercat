@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:,">
     <title>No title</title>
     <style>
         .expandable {
@@ -39,16 +40,18 @@
     <form id="form">
         <label for="cambio">USD/EUR:</label>        
         <input type="number" step="0.0001" id="cambio" required>
-        <hr style="border: none; height: 2px; margin: 5px 0;">
+        <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
         <div id="empresas"></div>
-        <hr style="border: none; height: 2px; margin: 5px 0;">
-        <button type="submit">...</button>
+        <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
+        <button onclick="guardarValores();" type="submit">...</button>
     </form>
     </br>
     <div id="resultados"></div>
     <div id="detalles-empresa"></div> <!-- Div para los detalles de la empresa -->
 
     <script>
+        const valores = [];
+        const pActual = [];
         fetch('dataResultado.json')
             .then(response => response.json())
             .then(jsonData => {
@@ -56,26 +59,21 @@
                 const resultadosDiv = document.getElementById('resultados');
                 const detallesDiv = document.getElementById('detalles-empresa');
                 const empresasUnicas = [...new Set(jsonData.map(item => item.empresa))];
-
                 // Crear inputs por empresa y cargar valores guardados
                 empresasUnicas.forEach((empresa, index) => {
                     const input = document.createElement('input');
                     input.type = 'number';
                     input.step = '0.01';
                     input.placeholder = `Preu ${empresa}`;
+                    input.name = `${empresa}`;
                     input.id = `precio-${index}`;
-                    input.required = true;
+                    input.required = false;
 
-/*                     // Cargar valores guardados en localStorage
-                    const valorGuardado = localStorage.getItem(`precio-${index}`);
-                    if (valorGuardado) {
-                        input.value = valorGuardado;
-                    }
- */
                     empresasDiv.appendChild(document.createTextNode(empresa + ": "));
                     empresasDiv.appendChild(input);
                     empresasDiv.appendChild(document.createElement('br'));
                 });
+                leerValores();  // Cargar valores al inicio
 
                 // Evento para calcular beneficios
                 document.getElementById('form').addEventListener('submit', (e) => {
@@ -84,37 +82,51 @@
                     //localStorage.setItem('cambio', cambio); // Guardar tipo de cambio en localStorage
 
                     let resultados = '<table>';
-                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th></tr>';
+                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th><th>Preu actual</th><th>Preu medi/accio</th></tr>';
 
+                    var i = 0;
                     empresasUnicas.forEach((empresa, index) => {
-                        const precioActual = parseFloat(document.getElementById(`precio-${index}`).value);
-                        //localStorage.setItem(`precio-${index}`, precioActual); // Guardar precio en localStorage
+                    	const precioIndex = document.getElementById(`precio-${index}`).value;
+                    	const precioIndexNumber = Number(precioIndex);
+                    	if (precioIndex.trim() === "" || (!isNaN(precioIndexNumber) && precioIndexNumber === 0)) {
+                    	    //nada
+                    	} else {
+                            const precioActual = parseFloat(document.getElementById(`precio-${index}`).value);
 
-                        const compras = jsonData.filter(item => item.empresa === empresa);
-                        let valorActualEmpresa = 0;
-                        let invertidoEmpresa = 0;
+                            const compras = jsonData.filter(item => item.empresa === empresa);
+                            let valorActualEmpresa = 0;
+                            let invertidoEmpresa = 0;
 
-                        compras.forEach(({ numeroAcciones, importeTotal }) => {
-                            let importeLimpio = Math.abs(parseFloat(importeTotal.toString().replace('.', '').replace(',', '.')));
-                            const valorActual = numeroAcciones * precioActual * cambio;
+                            compras.forEach(({ numeroAcciones, importeTotal }) => {
+                                let importeLimpio = Math.abs(parseFloat(importeTotal.toString().replace('.', '').replace(',', '.')));
+                                const valorActual = numeroAcciones * precioActual * cambio;
 
-                            valorActualEmpresa += valorActual;
-                            invertidoEmpresa += importeLimpio;
-                        });
+                                valorActualEmpresa += valorActual;
+                                invertidoEmpresa += importeLimpio;
+                            });
 
-                        const beneficioBruto = valorActualEmpresa - invertidoEmpresa;
-                        const beneficioNeto = beneficioBruto * 0.81; // Aplicar el descuento del 19%
-                        const porcentajeBeneficio = (beneficioBruto / invertidoEmpresa) * 100; // Calcular porcentaje de beneficio
-                        const color = beneficioBruto >= 0 ? 'green' : 'red';
+                            const beneficioBruto = valorActualEmpresa - invertidoEmpresa;
+                            const beneficioNeto = beneficioBruto * 0.81; // Aplicar el descuento del 19%
+                            const porcentajeBeneficio = (beneficioBruto / invertidoEmpresa) * 100; // Calcular porcentaje de beneficio
+                            const color = beneficioBruto >= 0 ? 'green' : 'red';
 
-                        resultados += `<tr>
-                            <td><span class="expandable" onclick="mostrarDetalles('${empresa}')">${empresa}</span></td>
-                            <td>${invertidoEmpresa.toFixed(2)}</td>
-                            <td>${valorActualEmpresa.toFixed(2)}</td>
-                            <td style="color: ${color}; font-weight: bold;">${beneficioBruto.toFixed(2)}</td>
-                            <td>${beneficioNeto.toFixed(2)}</td>
-                            <td>${porcentajeBeneficio.toFixed(2)}%</td>
-                        </tr>`;
+                            if (! valores.includes(empresa)){
+                            	valores.push(empresa);	
+                            }
+                            
+                            pActual.push(document.getElementById(`precio-${index}`).value);
+
+                            resultados += `<tr>
+                                <td><span id="expandable" class="expandable" onclick="mostrarDetalles('${empresa}')">${empresa}</span></td>
+                                <td>${invertidoEmpresa.toFixed(2)}</td>
+                                <td>${valorActualEmpresa.toFixed(2)}</td>
+                                <td style="color: ${color}; font-weight: bold;">${beneficioBruto.toFixed(2)}</td>
+                                <td>${beneficioNeto.toFixed(2)}</td>
+                                <td>${porcentajeBeneficio.toFixed(2)}%</td>
+                                <td style="font-weight: bold;">${pActual[i++]}</td>
+                                <td id="${empresa}" style="background-color: lightgray; font-weight: bold; color: black;"></td>
+                            </tr>`;
+                    	}
                     });
 
                     resultados += '</table>';
@@ -125,30 +137,83 @@
                 window.mostrarDetalles = (empresa) => {
                     const compras = jsonData.filter(item => item.empresa === empresa);
                     let detalles = `<h3>Detalles de ${empresa}</h3><table>`;
-                    detalles += '<tr><th>Import Total</th><th>Accions</th><th>Data</th><th>Preu Uni.</th></tr>';
+                    detalles += '<tr><th>Data</th><th>Accions</th><th>Preu Uni.</th><th>Import Total</th></tr>';
 
+let unidadPorPrecioUnidad = 0;
+let unidades = 0;
                     compras.forEach(({ importeTotal, numeroAcciones, fecha, precioUnidad }) => {
                         detalles += `<tr>
-                            <td>${importeTotal}</td>
+                        	<td>${fecha}</td>
                             <td>${numeroAcciones}</td>
-                            <td>${fecha}</td>
                             <td>${precioUnidad}</td>
+                            <td>${importeTotal}</td>
                         </tr>`;
+                        //alert(numeroAcciones);
+                        //alert(precioUnidad);
+                        unidadPorPrecioUnidad += numeroAcciones * precioUnidad;
+                        unidades += numeroAcciones;
                     });
-
                     detalles += '</table>';
                     detallesDiv.innerHTML = detalles; // Mostrar detalles en un div
+                    
+                    var celda = document.getElementById(empresa);
+	                if (celda) {
+	                   celda.textContent = (unidadPorPrecioUnidad/unidades).toFixed(2);
+	                }
                 };
-
-/*                 // Cargar tipo de cambio desde localStorage
-                const cambioGuardado = localStorage.getItem('cambio');
-                if (cambioGuardado) {
-                    document.getElementById('cambio').value = cambioGuardado;
-                }
- */            })
+             })
             .catch(error => console.error('Error al leer el JSON:', error));
+        
+        //guardar ultimo valor de cada input con indexedDB
+        let db;
+        const request = indexedDB.open("PreciosDB", 1);
+
+        request.onupgradeneeded = function(event) {
+            db = event.target.result;
+            if (!db.objectStoreNames.contains("precios")) {
+                db.createObjectStore("precios", { keyPath: "name" });
+            }
+        };
+
+         request.onsuccess = function(event) {
+            db = event.target.result;            
+        }; 
+
+        function guardarValores() {
+            const transaction = db.transaction(["precios"], "readwrite");
+            const store = transaction.objectStore("precios");
+
+            document.querySelectorAll("input[type='number']").forEach(input => {
+                let name = input.placeholder;  // Usamos el placeholder como identificador único
+                let valor = parseFloat(input.value) || 0;
+                store.put({ name, valor });
+            });
+
+            transaction.oncomplete = function() {
+                for (let i = 0; i < valores.length; i++) {
+                    mostrarDetalles(valores[i]);
+                }
+            };
+        }
+
+        function leerValores() {
+            const transaction = db.transaction(["precios"], "readonly");
+            const store = transaction.objectStore("precios");
+
+            store.openCursor().onsuccess = function(event) {
+                let cursor = event.target.result;
+                if (cursor) {
+                    let input = [...document.querySelectorAll("input[type='number']")]
+                        .find(el => el.placeholder === cursor.value.name);
+                    if (input) {
+                        input.value = cursor.value.valor;
+                    }
+                    cursor.continue();
+                }
+            };
+        }
     </script>
-    <hr style="border: none; height: 20px; margin: 5px 0;">
-    <hr style="border: none; height: 2px; background:gray; margin: 5px 0;">
+    <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
+    <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
 </body>
 </html>
