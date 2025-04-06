@@ -39,7 +39,7 @@
 <body>
     <form id="form">
         <label for="cambio">USD/EUR:</label>        
-        <input type="number" step="0.0001" id="cambio" required>
+        <input type="number" step="0.0001" id="cambio" name="cambio" required>
         <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
         <div id="empresas"></div>
         <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
@@ -66,7 +66,8 @@
                     input.step = '0.01';
                     input.placeholder = `Preu ${empresa}`;
                     input.name = `${empresa}`;
-                    input.id = `precio-${index}`;
+                    //input.id = `precio-${index}`;
+                    input.id = `input${empresa}`;
                     input.required = false;
 
                     empresasDiv.appendChild(document.createTextNode(empresa + ": "));
@@ -74,7 +75,7 @@
                     empresasDiv.appendChild(document.createElement('br'));
                 });
                 leerValores();  // Cargar valores al inicio
-
+                
                 // Evento para calcular beneficios
                 document.getElementById('form').addEventListener('submit', (e) => {
                     e.preventDefault();
@@ -82,16 +83,18 @@
                     //localStorage.setItem('cambio', cambio); // Guardar tipo de cambio en localStorage
 
                     let resultados = '<table>';
-                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th><th>Preu actual</th><th>Preu medi/accio</th></tr>';
+                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th><th>Preu actual</th><th>Num. accions</th><th>Preu medi/accio</th><th style="background-color: lightgray;">Compra Accions</th><th style="background-color: lightgray;">Compra Preu medi/accio</th><th style="background-color: lightgray;">Compra (EUR)</th></tr>';
 
                     var i = 0;
                     empresasUnicas.forEach((empresa, index) => {
-                    	const precioIndex = document.getElementById(`precio-${index}`).value;
+                    	//const precioIndex = document.getElementById(`precio-${index}`).value;
+                    	const precioIndex = document.getElementById(`input${empresa}`).value;
                     	const precioIndexNumber = Number(precioIndex);
                     	if (precioIndex.trim() === "" || (!isNaN(precioIndexNumber) && precioIndexNumber === 0)) {
                     	    //nada
                     	} else {
-                            const precioActual = parseFloat(document.getElementById(`precio-${index}`).value);
+                            //const precioActual = parseFloat(document.getElementById(`precio-${index}`).value);
+                            const precioActual = parseFloat(document.getElementById(`input${empresa}`).value);
 
                             const compras = jsonData.filter(item => item.empresa === empresa);
                             let valorActualEmpresa = 0;
@@ -108,13 +111,15 @@
                             const beneficioBruto = valorActualEmpresa - invertidoEmpresa;
                             const beneficioNeto = beneficioBruto * 0.81; // Aplicar el descuento del 19%
                             const porcentajeBeneficio = (beneficioBruto / invertidoEmpresa) * 100; // Calcular porcentaje de beneficio
+//alert(beneficioBruto);     alert(invertidoEmpresa);                         
                             const color = beneficioBruto >= 0 ? 'green' : 'red';
 
                             if (! valores.includes(empresa)){
                             	valores.push(empresa);	
                             }
                             
-                            pActual.push(document.getElementById(`precio-${index}`).value);
+                            //pActual.push(document.getElementById(`precio-${index}`).value);
+                            pActual.push(document.getElementById(`input${empresa}`).value);
 
                             resultados += `<tr>
                                 <td><span id="expandable" class="expandable" onclick="mostrarDetalles('${empresa}')">${empresa}</span></td>
@@ -123,8 +128,12 @@
                                 <td style="color: ${color}; font-weight: bold;">${beneficioBruto.toFixed(2)}</td>
                                 <td>${beneficioNeto.toFixed(2)}</td>
                                 <td>${porcentajeBeneficio.toFixed(2)}%</td>
-                                <td style="font-weight: bold;">${pActual[i++]}</td>
-                                <td id="${empresa}" style="background-color: lightgray; font-weight: bold; color: black;"></td>
+                                <td id="Act${empresa}" style="font-weight: bold; background-color: gray; color: white;">${pActual[i++]}</td>
+                                <td id="Num${empresa}" style="font-weight: bold;"></td>
+                                <td id="${empresa}" style="background-color: lightgray; font-weight: bold; color: black;"></td>                                
+                                <td><input type="number" style="-webkit-appearance: none;margin: 0;-moz-appearance: textfield;width: 4ch;" onBlur="calculaNouPreuMitja(event, '${empresa}');"></td>
+                                <td id="Compra${empresa}" style="background-color: #F5F5F5; font-weight: bold; color: black;"></td>
+                                <td id="CompraFutura${empresa}" style="background-color: #F5F5F5; font-weight: bold; color: black;"></td>
                             </tr>`;
                     	}
                     });
@@ -160,6 +169,10 @@ let unidades = 0;
 	                if (celda) {
 	                   celda.textContent = (unidadPorPrecioUnidad/unidades).toFixed(2);
 	                }
+                    var celdaNum = document.getElementById("Num"+empresa);
+                    if (celdaNum) {
+                    	celdaNum.textContent = unidades;
+                    }
                 };
              })
             .catch(error => console.error('Error al leer el JSON:', error));
@@ -211,6 +224,21 @@ let unidades = 0;
                     cursor.continue();
                 }
             };
+        }
+        function calculaNouPreuMitja(event, emp){
+        	const numAccions = document.getElementById("Num"+emp).textContent; //numero accions actuals
+        	const preuMediAccions = document.getElementById(emp).textContent; //preu mitja actual
+        	
+        	const compraAccions = event.target.value.trim(); //numero accions futura compra
+        	const preuActualAccions = document.getElementById("Act"+emp).textContent; //preu actual
+        	
+        	if (compraAccions !== "") {
+                const calculNouPreuMitja = (((numAccions*preuMediAccions)+(compraAccions*preuActualAccions))/(parseFloat(numAccions)+parseFloat(compraAccions))).toFixed(2);
+                document.getElementById("Compra"+emp).textContent = calculNouPreuMitja;  
+
+                const cambio = document.getElementById("cambio").value;
+                document.getElementById("CompraFutura"+emp).textContent = (compraAccions * parseFloat(preuActualAccions) * cambio).toFixed(2);  
+        	}
         }
     </script>
     <hr style="border: none; border-top: 2px solid transparent; width: 90%; margin: 10px auto;">
