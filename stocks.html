@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:,">
-    <title>v3.0</title>
+    <title>v3.1</title>
     <style>
         .expandable {
             cursor: pointer;
@@ -34,6 +34,17 @@
             padding: 5px;
             text-align: left;
         }
+/* Para Chrome, Safari, Edge, Opera */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Para Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}        
     </style>
 </head>
 <body>
@@ -131,7 +142,7 @@
                                 <td id="Act${empresa}" style="font-weight: bold; background-color: gray; color: white;">${pActual[i++]}</td>
                                 <td id="Num${empresa}" style="font-weight: bold;"></td>
                                 <td id="${empresa}" style="background-color: lightgray; font-weight: bold; color: black;"></td>                                
-                                <td><input type="number" style="-webkit-appearance: none;margin: 0;-moz-appearance: textfield;width: 4ch;" onBlur="calculaNouPreuMitja(event, '${empresa}');"></td>
+                                <td><input type="number" style="width: 4ch;" onBlur="calculaNouPreuMitja(event, '${empresa}');"></td>
                                 <td id="Compra${empresa}" style="background-color: #F5F5F5; font-weight: bold; color: black;"></td>
                                 <td id="CompraFutura${empresa}" style="background-color: #F5F5F5; font-weight: bold; color: black;"></td>
                             </tr>`;
