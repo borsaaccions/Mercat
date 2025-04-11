@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:,">
-    <title>v3.1</title>
+    <title>v3.2</title>
     <style>
         .expandable {
             cursor: pointer;
@@ -77,9 +77,27 @@ input[type=number] {
                     input.step = '0.01';
                     input.placeholder = `Preu ${empresa}`;
                     input.name = `${empresa}`;
-                    //input.id = `precio-${index}`;
                     input.id = `input${empresa}`;
                     input.required = false;
+                    input.addEventListener('blur', function() {
+                    	const idOriginal = input.id; 
+                    	let idComplementario;
+                        // Si el input es del tipo "inputMa.EMPRESA", buscamos "inputEMPRESA"
+                        if (idOriginal.startsWith('inputMa.')) {
+                          const empresa = idOriginal.substring('inputMa.'.length);
+                          idComplementario = 'input' + empresa;
+                        }
+                        // Si el input es del tipo "inputEMPRESA", buscamos "inputMa.EMPRESA"
+                        else if (idOriginal.startsWith('input')) {
+                          const empresa = idOriginal.substring('input'.length);
+                          idComplementario = 'inputMa.' + empresa;
+                        }  
+                        // Buscamos el input complementario y le pasamos el valor si existe
+                        const inputComplementario = document.getElementById(idComplementario);
+                        if (inputComplementario) {
+                          inputComplementario.value = input.value;
+                        }                        
+                    });
 
                     empresasDiv.appendChild(document.createTextNode(empresa + ": "));
                     empresasDiv.appendChild(input);
@@ -94,7 +112,7 @@ input[type=number] {
                     //localStorage.setItem('cambio', cambio); // Guardar tipo de cambio en localStorage
 
                     let resultados = '<table>';
-                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Percentatge</th><th>Preu actual</th><th>Num. accions</th><th>Preu medi/accio</th><th style="background-color: lightgray;">Compra Accions</th><th style="background-color: lightgray;">Compra Preu medi/accio</th><th style="background-color: lightgray;">Compra (EUR)</th></tr>';
+                    resultados += '<tr><th>Emp</th><th>T.Invertit(EUR)</th><th>T.Venda (EUR)</th><th>Benef.Brut (EUR)</th><th>Benef.Net (EUR)</th><th>Emp</th><th>Percentatge</th><th>Preu actual</th><th>Num. accions</th><th>Preu medi/accio</th><th style="background-color: lightgray;">Compra Accions</th><th style="background-color: lightgray;">Compra Preu medi/accio</th><th style="background-color: lightgray;">Compra (EUR)</th></tr>';
 
                     var i = 0;
                     empresasUnicas.forEach((empresa, index) => {
@@ -121,8 +139,7 @@ input[type=number] {
 
                             const beneficioBruto = valorActualEmpresa - invertidoEmpresa;
                             const beneficioNeto = beneficioBruto * 0.81; // Aplicar el descuento del 19%
-                            const porcentajeBeneficio = (beneficioBruto / invertidoEmpresa) * 100; // Calcular porcentaje de beneficio
-//alert(beneficioBruto);     alert(invertidoEmpresa);                         
+                            const porcentajeBeneficio = (beneficioBruto / invertidoEmpresa) * 100; // Calcular porcentaje de beneficio                        
                             const color = beneficioBruto >= 0 ? 'green' : 'red';
 
                             if (! valores.includes(empresa)){
@@ -138,6 +155,7 @@ input[type=number] {
                                 <td>${valorActualEmpresa.toFixed(2)}</td>
                                 <td style="color: ${color}; font-weight: bold;">${beneficioBruto.toFixed(2)}</td>
                                 <td>${beneficioNeto.toFixed(2)}</td>
+                                <td style="font-weight: bold; color: blue;">${empresa}</td>
                                 <td>${porcentajeBeneficio.toFixed(2)}%</td>
                                 <td id="Act${empresa}" style="font-weight: bold; background-color: gray; color: white;">${pActual[i++]}</td>
                                 <td id="Num${empresa}" style="font-weight: bold;"></td>
