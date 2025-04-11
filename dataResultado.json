@@ -1,5 +1,19 @@
 [
     {
+        "fecha": "10/04/2025",
+        "importeTotal": "153,04",
+        "precioUnidad": 171.87,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "09/04/2025",
+        "importeTotal": "330,78",
+        "precioUnidad": 180.2,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 2
+    },
+    {
         "fecha": "28/03/2025",
         "importeTotal": "250,22",
         "precioUnidad": 268.895,
@@ -18,6 +32,13 @@
         "importeTotal": "804,95",
         "precioUnidad": 419.4745,
         "empresa": "TESLA INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "09/04/2025",
+        "importeTotal": "218,06",
+        "precioUnidad": 118.5368,
+        "empresa": "ALPHA METALLURGICA",
         "numeroAcciones": 2
     },
     {
@@ -54,6 +75,13 @@
         "precioUnidad": 246.9475,
         "empresa": "ALPHA METALLURGICA",
         "numeroAcciones": 7
+    },
+    {
+        "fecha": "09/04/2025",
+        "importeTotal": "280,24",
+        "precioUnidad": 76.275,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 4
     },
     {
         "fecha": "03/04/2025",
@@ -217,6 +245,13 @@
         "numeroAcciones": 10
     },
     {
+        "fecha": "09/04/2025",
+        "importeTotal": "170,97",
+        "precioUnidad": 92.7768,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 2
+    },
+    {
         "fecha": "03/04/2025",
         "importeTotal": "208,17",
         "precioUnidad": 113.6079,
@@ -341,6 +376,13 @@
         "precioUnidad": 147.467,
         "empresa": "PDD HOLDINGS INC",
         "numeroAcciones": 12
+    },
+    {
+        "fecha": "09/04/2025",
+        "importeTotal": "227,58",
+        "precioUnidad": 9.8995,
+        "empresa": "STELLANTIS NV",
+        "numeroAcciones": 25
     },
     {
         "fecha": "03/04/2025",
@@ -474,6 +516,13 @@
         "precioUnidad": 26.7295,
         "empresa": "STELLANTIS NV",
         "numeroAcciones": 120
+    },
+    {
+        "fecha": "09/04/2025",
+        "importeTotal": "269,99",
+        "precioUnidad": 58.777,
+        "empresa": "NIKE INC",
+        "numeroAcciones": 5
     },
     {
         "fecha": "03/04/2025",
