@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="data:,">
-    <title>v3.2</title>
+    <title>v3.3</title>
     <style>
         .expandable {
             cursor: pointer;
@@ -72,6 +72,7 @@ input[type=number] {
                 const empresasUnicas = [...new Set(jsonData.map(item => item.empresa))];
                 // Crear inputs por empresa y cargar valores guardados
                 empresasUnicas.forEach((empresa, index) => {
+                	//alert(`Empresa #${index + 1}: ${empresa}`);
                     const input = document.createElement('input');
                     input.type = 'number';
                     input.step = '0.01';
@@ -98,13 +99,19 @@ input[type=number] {
                           inputComplementario.value = input.value;
                         }                        
                     });
+                    //se situa al final del campo input text
+					input.addEventListener('focus', function () {
+					  const valor = this.value;
+					  this.value = '';         // borramos momentaneamente
+					  this.value = valor;      // se crea => cursor al final
+					});
 
                     empresasDiv.appendChild(document.createTextNode(empresa + ": "));
                     empresasDiv.appendChild(input);
                     empresasDiv.appendChild(document.createElement('br'));
                 });
                 leerValores();  // Cargar valores al inicio
-                
+
                 // Evento para calcular beneficios
                 document.getElementById('form').addEventListener('submit', (e) => {
                     e.preventDefault();
@@ -116,7 +123,6 @@ input[type=number] {
 
                     var i = 0;
                     empresasUnicas.forEach((empresa, index) => {
-                    	//const precioIndex = document.getElementById(`precio-${index}`).value;
                     	const precioIndex = document.getElementById(`input${empresa}`).value;
                     	const precioIndexNumber = Number(precioIndex);
                     	if (precioIndex.trim() === "" || (!isNaN(precioIndexNumber) && precioIndexNumber === 0)) {
