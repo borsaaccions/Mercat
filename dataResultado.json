@@ -1,19 +1,5 @@
 [
     {
-        "fecha": "10/04/2025",
-        "importeTotal": "153,04",
-        "precioUnidad": 171.87,
-        "empresa": "BROADCOM INC",
-        "numeroAcciones": 1
-    },
-    {
-        "fecha": "09/04/2025",
-        "importeTotal": "330,78",
-        "precioUnidad": 180.2,
-        "empresa": "BROADCOM INC",
-        "numeroAcciones": 2
-    },
-    {
         "fecha": "28/03/2025",
         "importeTotal": "250,22",
         "precioUnidad": 268.895,
@@ -75,6 +61,13 @@
         "precioUnidad": 246.9475,
         "empresa": "ALPHA METALLURGICA",
         "numeroAcciones": 7
+    },
+    {
+        "fecha": "16/04/2025",
+        "importeTotal": "123,14",
+        "precioUnidad": 69.008,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 2
     },
     {
         "fecha": "09/04/2025",
@@ -243,6 +236,13 @@
         "precioUnidad": 154.8549,
         "empresa": "MICRON TECHNOLOGY INC",
         "numeroAcciones": 10
+    },
+    {
+        "fecha": "16/04/2025",
+        "importeTotal": "164,13",
+        "precioUnidad": 92.2299,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 2
     },
     {
         "fecha": "09/04/2025",
@@ -691,6 +691,34 @@
         "precioUnidad": 144.27,
         "empresa": "NIKE INC",
         "numeroAcciones": 23
+    },
+    {
+        "fecha": "16/04/2025",
+        "importeTotal": "151,98",
+        "precioUnidad": 170.68,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "10/04/2025",
+        "importeTotal": "153,04",
+        "precioUnidad": 171.87,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "09/04/2025",
+        "importeTotal": "330,78",
+        "precioUnidad": 180.2,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "14/04/2025",
+        "importeTotal": "150,47",
+        "precioUnidad": 11.23,
+        "empresa": "AUDIOEYE INC",
+        "numeroAcciones": 15
     },
     {
         "fecha": "13/03/2025",
