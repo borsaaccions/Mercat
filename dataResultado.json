@@ -21,6 +21,13 @@
         "numeroAcciones": 2
     },
     {
+        "fecha": "21/04/2025",
+        "importeTotal": "210,54",
+        "precioUnidad": 120.2199,
+        "empresa": "ALPHA METALLURGICA",
+        "numeroAcciones": 2
+    },
+    {
         "fecha": "09/04/2025",
         "importeTotal": "218,06",
         "precioUnidad": 118.5368,
@@ -236,6 +243,13 @@
         "precioUnidad": 154.8549,
         "empresa": "MICRON TECHNOLOGY INC",
         "numeroAcciones": 10
+    },
+    {
+        "fecha": "21/04/2025",
+        "importeTotal": "163,89",
+        "precioUnidad": 93.417,
+        "empresa": "PDD HOLDINGS INC",
+        "numeroAcciones": 2
     },
     {
         "fecha": "16/04/2025",
@@ -693,6 +707,20 @@
         "numeroAcciones": 23
     },
     {
+        "fecha": "29/04/2025",
+        "importeTotal": "170,37",
+        "precioUnidad": 191.6699,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "21/04/2025",
+        "importeTotal": "143,39",
+        "precioUnidad": 163.267,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 1
+    },
+    {
         "fecha": "16/04/2025",
         "importeTotal": "151,98",
         "precioUnidad": 170.68,
@@ -712,6 +740,34 @@
         "precioUnidad": 180.2,
         "empresa": "BROADCOM INC",
         "numeroAcciones": 2
+    },
+    {
+        "fecha": "01/05/2025",
+        "importeTotal": "146,09",
+        "precioUnidad": 10.892,
+        "empresa": "AUDIOEYE INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "30/04/2025",
+        "importeTotal": "145,92",
+        "precioUnidad": 10.86,
+        "empresa": "AUDIOEYE INC",
+        "numeroAcciones": 15
+    },
+    {
+        "fecha": "29/04/2025",
+        "importeTotal": "109,80",
+        "precioUnidad": 12.3,
+        "empresa": "AUDIOEYE INC",
+        "numeroAcciones": 10
+    },
+    {
+        "fecha": "21/04/2025",
+        "importeTotal": "93,46",
+        "precioUnidad": 10.5904,
+        "empresa": "AUDIOEYE INC",
+        "numeroAcciones": 10
     },
     {
         "fecha": "14/04/2025",
@@ -1132,54 +1188,5 @@
         "precioUnidad": 246.9585,
         "empresa": "Ma.ALPHA METALLURGICA",
         "numeroAcciones": 7
-    },
-    {
-        "fecha": "18/03/2025",
-        "importeTotal": "704,86",
-        "precioUnidad": 382.335,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "10/03/2025",
-        "importeTotal": "707,71",
-        "precioUnidad": 384.3345,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "07/03/2025",
-        "importeTotal": "724,56",
-        "precioUnidad": 389.814,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "06/03/2025",
-        "importeTotal": "1100,11",
-        "precioUnidad": 396.1399,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "30/01/2025",
-        "importeTotal": "1200,89",
-        "precioUnidad": 414.83,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 3
-    },
-    {
-        "fecha": "27/01/2025",
-        "importeTotal": "827,86",
-        "precioUnidad": 429.7925,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "02/01/2025",
-        "importeTotal": "1218,62",
-        "precioUnidad": 415.775,
-        "empresa": "Ma.MICROSOFT CORP",
-        "numeroAcciones": 3
     }
 ]
