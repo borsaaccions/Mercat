@@ -70,6 +70,13 @@
         "numeroAcciones": 7
     },
     {
+        "fecha": "05/05/2025",
+        "importeTotal": "568,84",
+        "precioUnidad": 80.0485,
+        "empresa": "MICRON TECHNOLOGY INC",
+        "numeroAcciones": 8
+    },
+    {
         "fecha": "16/04/2025",
         "importeTotal": "123,14",
         "precioUnidad": 69.008,
@@ -707,74 +714,25 @@
         "numeroAcciones": 23
     },
     {
-        "fecha": "29/04/2025",
-        "importeTotal": "170,37",
-        "precioUnidad": 191.6699,
-        "empresa": "BROADCOM INC",
+        "fecha": "15/05/2025",
+        "importeTotal": "147,08",
+        "precioUnidad": 162.8995,
+        "empresa": "ALPHABET INC-A",
         "numeroAcciones": 1
     },
     {
-        "fecha": "21/04/2025",
-        "importeTotal": "143,39",
-        "precioUnidad": 163.267,
-        "empresa": "BROADCOM INC",
+        "fecha": "15/05/2025",
+        "importeTotal": "148,82",
+        "precioUnidad": 164.8295,
+        "empresa": "ALPHABET INC-A",
         "numeroAcciones": 1
     },
     {
-        "fecha": "16/04/2025",
-        "importeTotal": "151,98",
-        "precioUnidad": 170.68,
-        "empresa": "BROADCOM INC",
-        "numeroAcciones": 1
-    },
-    {
-        "fecha": "10/04/2025",
-        "importeTotal": "153,04",
-        "precioUnidad": 171.87,
-        "empresa": "BROADCOM INC",
-        "numeroAcciones": 1
-    },
-    {
-        "fecha": "09/04/2025",
-        "importeTotal": "330,78",
-        "precioUnidad": 180.2,
-        "empresa": "BROADCOM INC",
-        "numeroAcciones": 2
-    },
-    {
-        "fecha": "01/05/2025",
-        "importeTotal": "146,09",
-        "precioUnidad": 10.892,
-        "empresa": "AUDIOEYE INC",
-        "numeroAcciones": 15
-    },
-    {
-        "fecha": "30/04/2025",
-        "importeTotal": "145,92",
-        "precioUnidad": 10.86,
-        "empresa": "AUDIOEYE INC",
-        "numeroAcciones": 15
-    },
-    {
-        "fecha": "29/04/2025",
-        "importeTotal": "109,80",
-        "precioUnidad": 12.3,
-        "empresa": "AUDIOEYE INC",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "21/04/2025",
-        "importeTotal": "93,46",
-        "precioUnidad": 10.5904,
-        "empresa": "AUDIOEYE INC",
-        "numeroAcciones": 10
-    },
-    {
-        "fecha": "14/04/2025",
-        "importeTotal": "150,47",
-        "precioUnidad": 11.23,
-        "empresa": "AUDIOEYE INC",
-        "numeroAcciones": 15
+        "fecha": "09/05/2025",
+        "importeTotal": "410,57",
+        "precioUnidad": 152.6295,
+        "empresa": "ALPHABET INC-A",
+        "numeroAcciones": 3
     },
     {
         "fecha": "13/03/2025",
@@ -1188,5 +1146,26 @@
         "precioUnidad": 246.9585,
         "empresa": "Ma.ALPHA METALLURGICA",
         "numeroAcciones": 7
+    },
+    {
+        "fecha": "09/05/2025",
+        "importeTotal": "547,49",
+        "precioUnidad": 152.7695,
+        "empresa": "Ma.ALPHABET INC-A",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "15/05/2025",
+        "importeTotal": "149,11",
+        "precioUnidad": 165.1495,
+        "empresa": "Ma.ALPHABET INC-A",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "15/05/2025",
+        "importeTotal": "147,16",
+        "precioUnidad": 162.979,
+        "empresa": "Ma.ALPHABET INC-A",
+        "numeroAcciones": 1
     }
 ]
