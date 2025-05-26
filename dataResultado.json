@@ -21,6 +21,13 @@
         "numeroAcciones": 2
     },
     {
+        "fecha": "23/05/2025",
+        "importeTotal": "297,09",
+        "precioUnidad": 335.9905,
+        "empresa": "TESLA INC",
+        "numeroAcciones": 1
+    },
+    {
         "fecha": "21/04/2025",
         "importeTotal": "210,54",
         "precioUnidad": 120.2199,
@@ -735,6 +742,41 @@
         "numeroAcciones": 3
     },
     {
+        "fecha": "20/05/2025",
+        "importeTotal": "146,57",
+        "precioUnidad": 163.9295,
+        "empresa": "ALPHABET INC-A",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "23/05/2025",
+        "importeTotal": "298,30",
+        "precioUnidad": 168.679,
+        "empresa": "ALPHABET INC-A",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "21/05/2025",
+        "importeTotal": "358,98",
+        "precioUnidad": 201.7885,
+        "empresa": "AMAZON.COM INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "16/05/2025",
+        "importeTotal": "412,24",
+        "precioUnidad": 229.5605,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "19/05/2025",
+        "importeTotal": "200,66",
+        "precioUnidad": 223.7925,
+        "empresa": "BROADCOM INC",
+        "numeroAcciones": 1
+    },
+    {
         "fecha": "13/03/2025",
         "importeTotal": "552,02",
         "precioUnidad": 11.8891,
@@ -1166,6 +1208,83 @@
         "importeTotal": "147,16",
         "precioUnidad": 162.979,
         "empresa": "Ma.ALPHABET INC-A",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "20/05/2025",
+        "importeTotal": "146,59",
+        "precioUnidad": 163.9495,
+        "empresa": "Ma.ALPHABET INC-A",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "23/05/2025",
+        "importeTotal": "298,00",
+        "precioUnidad": 168.5095,
+        "empresa": "Ma.ALPHABET INC-A",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "23/05/2025",
+        "importeTotal": "177,46",
+        "precioUnidad": 200.089,
+        "empresa": "Ma.AMAZON.COM INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "21/05/2025",
+        "importeTotal": "180,16",
+        "precioUnidad": 201.7885,
+        "empresa": "Ma.AMAZON.COM INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "16/05/2025",
+        "importeTotal": "368,37",
+        "precioUnidad": 205.048,
+        "empresa": "Ma.AMAZON.COM INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "22/05/2025",
+        "importeTotal": "263,40",
+        "precioUnidad": 73.862,
+        "empresa": "Ma.LANTHEUS HOLDINGS INC",
+        "numeroAcciones": 4
+    },
+    {
+        "fecha": "21/05/2025",
+        "importeTotal": "68,56",
+        "precioUnidad": 75.8699,
+        "empresa": "Ma.LANTHEUS HOLDINGS INC",
+        "numeroAcciones": 1
+    },
+    {
+        "fecha": "20/05/2025",
+        "importeTotal": "137,39",
+        "precioUnidad": 76.78,
+        "empresa": "Ma.LANTHEUS HOLDINGS INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "19/05/2025",
+        "importeTotal": "350,32",
+        "precioUnidad": 78.3625,
+        "empresa": "Ma.LANTHEUS HOLDINGS INC",
+        "numeroAcciones": 5
+    },
+    {
+        "fecha": "16/05/2025",
+        "importeTotal": "411,39",
+        "precioUnidad": 229.084,
+        "empresa": "Ma.BROADCOM INC",
+        "numeroAcciones": 2
+    },
+    {
+        "fecha": "16/05/2025",
+        "importeTotal": "404,13",
+        "precioUnidad": 450.055,
+        "empresa": "Ma.MICROSOFT CORP",
         "numeroAcciones": 1
     }
 ]
